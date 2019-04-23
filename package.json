@@ -1,0 +1,30 @@
+{
+  "name": "markdown-api",
+  "version": "1.0.0",
+  "description": "Simple node-express API that converts Markdown syntax to HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manaraph/markdown-api.git"
+  },
+  "keywords": [
+    "API",
+    "node",
+    "express",
+    "markdown",
+    "html"
+  ],
+  "author": "Manasseh Omachonu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manaraph/markdown-api/issues"
+  },
+  "homepage": "https://github.com/manaraph/markdown-api#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
