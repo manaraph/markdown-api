@@ -4,7 +4,7 @@
   "description": "Simple node-express API that converts Markdown syntax to HTML",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/manaraph/markdown-api#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "showdown": "^1.9.0"
   }
 }
