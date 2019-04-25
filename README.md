@@ -18,4 +18,8 @@ npm run dev
 # serve app at localhost:3000
 npm start
 
+# show consumption of markdown on console 
+npm run display
+
 ```
+
